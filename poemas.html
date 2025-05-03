@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<title>10 Poemas Románticos de Pablo Neruda</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap');
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f9f0f0, #ffe6e6);
+    font-family: 'Quicksand', sans-serif;
+    color: #4c3b3b;
+  }
+  header {
+    text-align: center;
+    padding: 1.5rem 1rem 0.5rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #b22222;
+  }
+  .poem-container {
+    background: #fff5f5cc;
+    margin: 1rem auto;
+    max-width: 340px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(178,34,34,0.2);
+    padding: 1.5rem 1.2rem 2.8rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .poem-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #b22222;
+    margin-bottom: 0.8rem;
+  }
+  .poem-text {
+    font-size: 0.95rem;
+    line-height: 1.35;
+    white-space: pre-line;
+    margin-bottom: 1.6rem;
+    flex-grow: 1;
+    user-select: text;
+  }
+  .tulip-container {
+    position: absolute;
+    bottom: 14px;
+    right: 18px;
+    width: 50px;
+    height: 75px;
+    cursor: pointer;
+    user-select: none;
+  }
+  svg.tulip {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    fill: #d32222;
+  }
+  .tulip-container:hover svg.tulip,
+  .tulip-container.active svg.tulip {
+    fill: #a80000;
+    transform: scale(1.15) rotate(-5deg);
+    filter: drop-shadow(0 2px 3px rgba(168,0,0,0.4));
+  }
+  /* Mobile adjustments */
+  @media (max-width: 400px) {
+    .poem-container {
+      max-width: 90vw;
+      padding: 1.2rem 1rem 2rem;
+      border-radius: 12px;
+    }
+    .tulip-container {
+      width: 40px;
+      height: 60px;
+      bottom: 12px;
+      right: 12px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>10 Poemas Románticos<br> para el amor de mi vida</header>
+
+<div id="poems">
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 1: Si tú me olvidas</div>
+    <div class="poem-text">
+      Quiero que sepas una cosa.
+
+      Tú sabes cómo es esto:
+      si miro
+      la luna de cristal, la rama roja
+      del slow al atardecer,
+      si toco
+      junto al fuego
+      la impalpable ceniza
+      o el arrugado cuerpo de la leña,
+      todo me lleva a ti,
+      como si todo lo que existe,
+      aromas, luz, metales,
+      fueran pequeños barcos que navegan
+      hacia las islas tuyas que me aguardan.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 2: Soneto XVII</div>
+    <div class="poem-text">
+      No te amo como si fueras rosa de sal, topacio  
+      o flecha de claveles que propagan el fuego:  
+      te amo como se aman ciertas cosas oscuras,  
+      secretamente, entre la sombra y el alma.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 3: Me gustas cuando callas</div>
+    <div class="poem-text">
+      Me gustas cuando callas porque estás como ausente,  
+      y me oyes desde lejos, y mi voz no te toca.  
+      Parece que los ojos se te hubieran volado  
+      y parece que un beso te cerrara la boca.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 4: En ti la flor</div>
+    <div class="poem-text">
+      En ti la flor  
+      es más que flor,  
+      es presencia;  
+      y en mí la flor  
+      es ausencia,  
+      pero ya, mi vida, estoy con ella.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 5: Dulce palabra</div>
+    <div class="poem-text">
+      Dulce palabra,  
+      el amor es un viaje  
+      sin equipaje,  
+      sin mapa y sin destino.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 6: Ayer te quise</div>
+    <div class="poem-text">
+      Ayer te quise,  
+      y el amor me quemó el pecho,  
+      pero hoy te amo  
+      y el amor me da aliento.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 7: Vuelve</div>
+    <div class="poem-text">
+      Vuelve por donde viniste,  
+      no me preguntes nada más,  
+      que la sangre del corazón  
+      está de tu parte.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 8: En mi piel</div>
+    <div class="poem-text">
+      En mi piel aún siento  
+      la ternura de tus dedos,  
+      y en el aire, el perfume  
+      de tu risa.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 9: Te recuerdo</div>
+    <div class="poem-text">
+      Te recuerdo como eras en el último otoño,  
+      y vuelvo a saber de tu silencio y de tu historia.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+
+  <div class="poem-container">
+    <div class="poem-title">Poema 10: Noche</div>
+    <div class="poem-text">
+      Noche, soledad,  
+      y tú y yo cariño,  
+      hablando a media voz.
+    </div>
+    <div class="tulip-container" tabindex="0" aria-label="Tulipán interactivo"></div>
+  </div>
+</div>
+
+<script>
+// SVG tulip markup
+const tulipSVG = `
+<svg class="tulip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 96" aria-hidden="true" focusable="false">
+  <g>
+    <path d="M32 0c-6 15-22 27-21 48 0 16 11 22 11 22s-5 14-5 22h20c0-8-5-22-5-22s11-6 11-22c1-21-15-33-21-48z" />
+    <path d="M32 20c-4 10-15 18-13 34 0 10 7 12 7 12s-3 8-3 12h11c0-4-3-12-3-12s7-2 7-12c2-16-9-24-13-34z" fill="#b22222"/>
+  </g>
+</svg>`;
+
+// Add tulip SVG to each tulip container
+document.querySelectorAll('.tulip-container').forEach(container => {
+  container.innerHTML = tulipSVG;
+
+  // Add interactivity - toggles active class on click or keypress (space/enter)
+  container.addEventListener('click', () => {
+    container.classList.toggle('active');
+  });
+  container.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault(); // prevent page scroll on space
+      container.classList.toggle('active');
+    }
+  });
+});
+</script>
+</body>
+</html>
